@@ -54,30 +54,56 @@ Milestone 6: Full Delivery
 
 
 ## Getting Started
-Prerequisites
+
+
+### Prerequisites
+
 Install Roblox Studio
+
 Familiarity with Lua scripting language
+
 Git for version control
-Installation
+
+
+### Installation
+
 Clone the repository:
+
 bash
+
 Copy code
+
 git clone https://github.com/yourusername/FantasyMergeQuest.git
+
 Open the project in Roblox Studio:
+
 Open Roblox Studio and select "Open from File".
+
 Navigate to the cloned repository and open the .rbxl file.
-Usage
+
+
+### Usage
+
 Run the game in Roblox Studio to test and develop.
+
 Follow the project board in GitHub Projects to keep track of tasks and milestones.
 
+
 ## Contribution
+
 We welcome contributions to enhance the Fantasy Merge Quest game. Please follow these steps to contribute:
 
 Fork the repository.
+
 Create a new branch (git checkout -b feature/your-feature).
+
 Commit your changes (git commit -m 'Add some feature').
+
 Push to the branch (git push origin feature/your-feature).
+
 Open a pull request.
 
+
 ## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
