@@ -7,18 +7,19 @@ Fantasy Merge Quest is a fantasy adventure merge simulation game developed as pa
 The vision for Fantasy Merge Quest is to create an engaging and immersive gaming experience that demonstrates advanced software engineering skills. The project aims to showcase a broad range of competencies including game design, programming, user experience design, and project management, all while delivering a fun and captivating game.
 
 ### Key Features
-Merge Mechanics: Players can merge various magical items to create more powerful artifacts.
-Quests: A variety of quests that guide the player through the game's story and world.
-Character Progression: Players can level up and gain new abilities, making their characters stronger and more versatile.
-Exploration: A vast fantasy world with multiple realms to explore, each with its own unique challenges and treasures.
-Procedural Generation: Dynamic generation of quests and items to ensure endless gameplay possibilities.
-Social Features: Guilds, trading, and multiplayer quests to foster community interaction.
-Technologies and Tools
-Roblox Studio: The primary platform for building and scripting the game.
-Lua Scripting: The programming language used for game development.
-GitHub: Version control and project management.
-GitHub Projects: For tracking progress and managing tasks.
-Figma/Sketch: For designing wireframes and user interfaces.
+**Merge Mechanics:** Players can merge various magical items to create more powerful artifacts.
+**Quests:** A variety of quests that guide the player through the game's story and world.
+**Character Progression:** Players can level up and gain new abilities, making their characters stronger and more versatile.
+**Exploration:** A vast fantasy world with multiple realms to explore, each with its own unique challenges and treasures.
+**Procedural Generation:** Dynamic generation of quests and items to ensure endless gameplay possibilities.
+**Social Features:** Guilds, trading, and multiplayer quests to foster community interaction.
+
+### Technologies and Tools
+**Roblox Studio:** The primary platform for building and scripting the game.
+**Lua Scripting:** The programming language used for game development.
+**GitHub:** Version control and project management.
+**GitHub Projects:** For tracking progress and managing tasks.
+**Figma/Sketch:** For designing wireframes and user interfaces.
 
 ### Project Milestones
 Milestone 0.5: Project/Product Introduction Video
