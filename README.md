@@ -1,9 +1,11 @@
 # Fantasy Merge Quest
 
 ## Overview
+
 Fantasy Merge Quest is a fantasy adventure merge simulation game developed as part of a capstone project for the Master of Science in Software Engineering program. In this game, players collect and merge magical items to create powerful artifacts, which they can use to complete quests, defeat monsters, and unlock new areas in a richly detailed fantasy world.
 
 ### Project Vision
+
 The vision for Fantasy Merge Quest is to create an engaging and immersive gaming experience that demonstrates advanced software engineering skills. The project aims to showcase a broad range of competencies including game design, programming, user experience design, and project management, all while delivering a fun and captivating game.
 
 ### Key Features
@@ -20,20 +22,34 @@ The vision for Fantasy Merge Quest is to create an engaging and immersive gaming
 
 **Social Features:** Guilds, trading, and multiplayer quests to foster community interaction.
 
+
 ### Technologies and Tools
+
 **Roblox Studio:** The primary platform for building and scripting the game.
+
 **Lua Scripting:** The programming language used for game development.
+
 **GitHub:** Version control and project management.
+
 **GitHub Projects:** For tracking progress and managing tasks.
+
 **Figma/Sketch:** For designing wireframes and user interfaces.
 
+
 ### Project Milestones
+
 Milestone 0.5: Project/Product Introduction Video
+
 Milestone 1: Project Proposal
+
 Milestone 2: Requirements Analysis
+
 Milestone 3: Design
+
 Milestone 4: Implementation/Development
+
 Milestone 5: Testing
+
 Milestone 6: Full Delivery
 
 
