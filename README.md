@@ -2,25 +2,22 @@
 
 ## Overview
 
-Fantasy Merge Quest is a fantasy adventure merge simulation game developed as part of a capstone project for the Master of Science in Software Engineering program. In this game, players collect and merge magical items to create powerful artifacts, which they can use to complete quests, defeat monsters, and unlock new areas in a richly detailed fantasy world.
+Fantasy Adventure RPG is a fantasy-themed roleplaying game developed as part of a capstone project for the Master of Science in Software Engineering program. Players can explore a magical world, craft items, embark on quests, and engage in various roleplaying activities. The game combines elements from roleplaying games, escape obbies, and adventure games, providing a rich and immersive experience.
 
 ### Project Vision
 
-The vision for Fantasy Merge Quest is to create an engaging and immersive gaming experience that demonstrates advanced software engineering skills. The project aims to showcase a broad range of competencies including game design, programming, user experience design, and project management, all while delivering a fun and captivating game.
+The vision for Fantasy Adventure RPG is to create an engaging and immersive gaming experience that demonstrates advanced software engineering skills. The project aims to showcase a broad range of competencies including game design, programming, user experience design, and project management, all while delivering a fun and captivating game.
+
 
 ### Key Features
 
-**Merge Mechanics:** Players can merge various magical items to create more powerful artifacts.
+**Roleplaying Elements:** Character customization, interactive world, and a variety of activities.
 
-**Quests:** A variety of quests that guide the player through the game's story and world.
+**Adventure and Exploration:** Quests and storylines, an expansive world with different regions, towns, and dungeons.
 
-**Character Progression:** Players can level up and gain new abilities, making their characters stronger and more versatile.
+**Escape Obby Features:** Challenging obstacles and villains to defeat.
 
-**Exploration:** A vast fantasy world with multiple realms to explore, each with its own unique challenges and treasures.
-
-**Procedural Generation:** Dynamic generation of quests and items to ensure endless gameplay possibilities.
-
-**Social Features:** Guilds, trading, and multiplayer quests to foster community interaction.
+**Crafting System:** Collect resources and craft items, with an upgrading system to improve items.
 
 
 ### Technologies and Tools
