@@ -70,7 +70,7 @@ bash
 
 Copy code
 
-git clone https://github.com/yourusername/FantasyMergeQuest.git
+git clone (https://github.com/k-harjo/RobloxGame.git)
 
 Open the project in Roblox Studio:
 
