@@ -1,0 +1,190 @@
+
+--Introduction
+local Dialogue = {
+    Start = {
+        Text = {
+            "Ah, you’ve arrived! Welcome to the Mystery Seekers.",
+            "I’m Mr. Thompson, the leader of this little group of truth seekers.",
+            "Here, we investigate the strange and unexplained, uncovering what others fear to see."
+        },
+        Responses = {
+            {Text = "What kind of mysteries do you solve?", NextNode = "Mysteries"},
+            {Text = "Why me? Why did you choose me?", NextNode = "WhyMe"},
+            {Text = "I’m ready. What’s my first case?", NextNode = "FirstCase"}
+        }
+    },
+    Mysteries = {
+        Text = {
+            "Ghostly whispers, missing people, strange symbols—you name it.",
+            "Our city is full of secrets, and it’s our job to uncover the truth behind them.",
+            "And now, you’re one of us. Let’s see if you have what it takes."
+        },
+        Responses = {
+            {Text = "Why me? Why did you choose me?", NextNode = "WhyMe"},
+            {Text = "I’m ready. What’s my first case?", NextNode = "FirstCase"}
+        }
+    },
+    WhyMe = {
+        Text = {
+            "Why you? Because you have curiosity in your eyes.",
+            "That’s the one thing every great detective needs—a hunger for answers.",
+            "And besides, we need fresh talent. This city’s mysteries aren’t going to solve themselves!"
+        },
+        Responses = {
+            {Text = "I’m ready. What’s my first case?", NextNode = "FirstCase"}
+        }
+    },
+    FirstCase = {
+        Text = {
+            "Good. Your first mission is a classic urban legend.",
+            "The Prescott House—an old, abandoned home in the neighborhood—has a reputation for being haunted.",
+            "You’ll investigate the house, gather clues, and report back with anything you find."
+        },
+        Responses = {
+            {Text = "Got it. I’ll head there now.", NextNode = "Goodbye"}
+        }
+    },
+    Goodbye = {
+        Text = {
+            "Good luck, detective. Remember: in this line of work, always expect the unexpected."
+        }
+    }
+}
+
+-- Post-Haunted House
+
+local Dialogue = {
+    Start = {
+        Text = {
+            "Ah, you’re back! Good work on investigating the Prescott House.",
+            "So, tell me—what did you find?"
+        },
+        Responses = {
+            {Text = "I found this old journal. It mentions something about portals.", NextNode = "Journal"},
+            {Text = "There were strange symbols all over the house.", NextNode = "Symbols"},
+            {Text = "I didn’t find much. Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    Journal = {
+        Text = {
+            "A journal, you say? Interesting... portals, you say?",
+            "That’s a clue worth its weight in gold. Portals are often linked to dimensional disturbances.",
+            "This journal might hold the key to understanding the larger puzzle we’re dealing with."
+        },
+        Responses = {
+            {Text = "Do you think it’s connected to the missing students?", NextNode = "Connected"},
+            {Text = "What should I do next?", NextNode = "Next"}
+        }
+    },
+    Symbols = {
+        Text = {
+            "Symbols? That’s no surprise. The supernatural always leaves its mark.",
+            "Were they similar to these? [He shows you a reference page from his notes.]",
+            "We’ve seen markings like these in other unexplained cases. They’re connected, no doubt."
+        },
+        Responses = {
+            {Text = "Do you think it’s connected to the missing students?", NextNode = "Connected"},
+            {Text = "What should I do next?", NextNode = "Next"}
+        }
+    },
+    Connected = {
+        Text = {
+            "It’s very possible. These disappearances are more than coincidence.",
+            "Portals, symbols... they suggest a much bigger picture.",
+            "We need to dig deeper. And I think the high school might be our next lead."
+        },
+        Responses = {
+            {Text = "Why the high school?", NextNode = "HighSchool"},
+            {Text = "Alright, I’ll head there. Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    HighSchool = {
+        Text = {
+            "The journal mentions a location that matches the high school’s basement.",
+            "There’s also been chatter about students going missing there after hours.",
+            "If there’s a connection, that’s where we’ll find it. Be prepared—the trail only gets stranger from here."
+        },
+        Responses = {
+            {Text = "Got it. I’ll check it out. Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    Next = {
+        Text = {
+            "Next, we focus on the high school.",
+            "The clues point to its basement—likely the site of another mystery.",
+            "Take the key you found in the house. It might help you gain access to restricted areas."
+        },
+        Responses = {
+            {Text = "Got it. I’ll head there next. Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    Goodbye = {
+        Text = {
+            "Good luck, detective. Keep your wits about you—you’ll need them."
+        }
+    }
+}
+
+
+-- Post-High School Investigation
+
+local Dialogue = {
+    Start = {
+        Text = {
+            "You’re back! I’ve been waiting to hear what you uncovered at the high school.",
+            "Tell me—what did you find?"
+        },
+        Responses = {
+            {Text = "I found this strange artifact. It seems to have some kind of energy.", NextNode = "Artifact"},
+            {Text = "There was a map fragment hidden in the library.", NextNode = "Map"},
+            {Text = "Nothing major, just some odd clues. Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    Artifact = {
+        Text = {
+            "An artifact? Let me see... fascinating. This is no ordinary object.",
+            "Artifacts like this often serve as conduits—tools to channel supernatural energy.",
+            "It could explain the disappearances, and it likely ties to the larger mystery."
+        },
+        Responses = {
+            {Text = "Do you think it’s related to the other strange events?", NextNode = "Related"},
+            {Text = "What do we do with it?", NextNode = "Action"}
+        }
+    },
+    Map = {
+        Text = {
+            "A map fragment, you say? Let me take a look.",
+            "This appears to be part of an old city plan. The markings—see here?—indicate significant locations.",
+            "It’s pointing to the park. That must be where we’ll find our next lead."
+        },
+        Responses = {
+            {Text = "Do you think the park is connected to the artifact?", NextNode = "Related"},
+            {Text = "What do we do next?", NextNode = "Action"}
+        }
+    },
+    Related = {
+        Text = {
+            "Absolutely. Every clue we’ve found ties into this growing puzzle.",
+            "The park has always been... peculiar. If the artifact’s energy extends there, we need to investigate it immediately.",
+            "The society’s influence is spreading, and we need to stay ahead of them."
+        },
+        Responses = {
+            {Text = "Understood. I’ll check the park. Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    Action = {
+        Text = {
+            "We need to be cautious. This artifact and map fragment are pieces of a larger game.",
+            "I’ll analyze what we’ve found, but for now, head to the park. The next piece of the puzzle awaits there.",
+            "Take the artifact with you—it might be the key to uncovering what’s hidden."
+        },
+        Responses = {
+            {Text = "Got it. I’ll head there now. Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    Goodbye = {
+        Text = {
+            "Good luck. The park holds secrets that are older and darker than you might expect."
+        }
+    }
+}
