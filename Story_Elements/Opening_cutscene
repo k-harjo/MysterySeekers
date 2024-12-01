@@ -1,0 +1,12 @@
+Story Start: Opening Cutscene with Narration
+Step 1: Opening Cutscene with Narration
+The game begins with a cinematic that uses camera pans and dynamic visuals (e.g., nighttime cityscapes, eerie alleyways, flickering lights) to set the mood.
+Example Narration:
+
+Narrator.Text = {
+    "In the heart of a bustling metropolis lies a hidden world of shadows and secrets.",
+    "Whispers of urban legends and strange disappearances have gripped the city in fear.",
+    "But when the truth hides in the dark, someone must step into the light.",
+    "Welcome to the Mystery Seekers—a club dedicated to unraveling the unknown."
+}
+The cutscene transitions to the player standing outside the Mystery Seekers’ headquarters, a quirky yet mysterious building with a glowing sign.
