@@ -1,0 +1,232 @@
+
+
+CHAPTER 1: MISSING STUDENTS NPC DIALOGUE
+
+
+
+
+Table of Contents
+      --Principal Harper	2
+      --Janitor Manny	3
+      --Nora - Student Witness	5
+      --Mr. Hargrove	6
+
+
+
+--Principal Harper
+
+local Dialogue = {
+    Start = {
+        Text = {
+            "Ah, you must be one of those Mystery Seekers.",
+            "I’ve told everyone, those students ran away.",
+            "Teenagers these days—always chasing trouble."
+        },
+        Responses = {
+            {Text = "Do you really believe they ran away?", NextNode = "Doubt"},
+            {Text = "Is there anything suspicious going on?", NextNode = "Suspicious"},
+            {Text = "Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    Doubt = {
+        Text = {
+            "What else could it be? This school is perfectly safe!",
+            "Kids these days... always looking for a way to rebel.",
+            "If you ask me, it’s their friends you should be investigating."
+        },
+        Responses = {
+            {Text = "I see. Thanks for your time. Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    Suspicious = {
+        Text = {
+            "Suspicious? Hah! Not at all. This is an institution of learning.",
+            "If anything odd has happened, it’s just teenage pranks.",
+            "Now, if you’ll excuse me, I have real work to do."
+        },
+        Responses = {
+            {Text = "Thanks for your time. Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    Goodbye = {
+        Text = {
+            "Just don’t make a mess of my school while you’re investigating!"
+        }
+    }
+}
+
+
+
+
+
+
+
+
+--Janitor Manny
+
+local Dialogue = {
+    Start = {
+        Text = {
+            "Oh, you’re one of those detective kids, huh?",
+            "Heard you’re snooping around about the missing students.",
+            "Well, let me tell you something—this school has secrets."
+        },
+        Responses = {
+            {Text = "What kind of secrets?", NextNode = "Secrets"},
+            {Text = "Do you know anything about the missing students?", NextNode = "Students"},
+            {Text = "Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    Secrets = {
+        Text = {
+            "I’ve worked here for twenty years. You see things in that time.",
+            "The basement—people say it’s just storage, but I hear noises. Strange ones.",
+            "Like footsteps, when no one’s down there. Gives me the creeps!"
+        },
+        Responses = {
+            {Text = "What kind of noises?", NextNode = "Noises"},
+            {Text = "Thanks for the tip. Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    Students = {
+        Text = {
+            "I’ve seen those kids hanging around after hours, always sneaking about.",
+            "There’s a group of them—troublemakers, I’d say.",
+            "But now? They’re just... gone. Like they were swallowed up."
+        },
+        Responses = {
+            {Text = "Do you think they were taken?", NextNode = "Taken"},
+            {Text = "Thanks for letting me know. Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    Noises = {
+        Text = {
+            "Low murmurs, like people talking. And sometimes, a faint clanging sound.",
+            "But every time I check, there’s nothing there. Just an empty basement.",
+            "Makes me wonder if it’s... haunted or something worse."
+        },
+        Responses = {
+            {Text = "That’s good to know. Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    Taken = {
+        Text = {
+            "Taken? I don’t know. But this school’s got a way of swallowing things up.",
+            "I say, if you go digging, don’t dig too deep. You might not like what you find."
+        },
+        Responses = {
+            {Text = "I’ll be careful. Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    Goodbye = {
+        Text = {
+            "Be careful, kid. This place... it’s got a life of its own."
+        }
+    }
+}
+
+--Nora - Student Witness
+
+local Dialogue = {
+    Start = {
+        Text = {
+            "Oh, you’re from the Mystery Seekers?",
+            "Are you investigating those kids who went missing?",
+            "I... I think I saw something the night they disappeared."
+        },
+        Responses = {
+            {Text = "What did you see?", NextNode = "See"},
+            {Text = "Where did you see it?", NextNode = "Where"},
+            {Text = "Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    See = {
+        Text = {
+            "It was a shadow. A tall figure, moving fast down the hall.",
+            "It didn’t look human... like it was stretching or something.",
+            "Then it just vanished into thin air."
+        },
+        Responses = {
+            {Text = "That’s creepy. Thanks for letting me know. Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    Where = {
+        Text = {
+            "It was near the science lab, late at night.",
+            "I was getting my notebook, and I saw it out of the corner of my eye.",
+            "I thought I was imagining things, but... it felt real. Too real."
+        },
+        Responses = {
+            {Text = "Thanks for the information. Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    Goodbye = {
+        Text = {
+            "Be careful if you’re walking around here at night. It’s not safe."
+        }
+    }
+}
+
+--Mr. Hargrove
+
+local Dialogue = {
+    Start = {
+        Text = {
+            "Ah! A fellow seeker of truth!",
+            "You’re not here for algebra, are you? No, no.",
+            "Your eyes tell me you’re chasing something... bigger. Something... unseen."
+        },
+        Responses = {
+            {Text = "Do you know what happened to the missing students?", NextNode = "Students"},
+            {Text = "What do you mean by unseen?", NextNode = "Unseen"},
+            {Text = "Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    Students = {
+        Text = {
+            "Disappearance? Is that what they’re calling it? Hah! No, no.",
+            "They’ve been... taken. This school—it’s built on dark foundations.",
+            "If you find the basement—yes, the basement!—you’ll see what I mean."
+        },
+        Responses = {
+            {Text = "What’s in the basement?", NextNode = "Basement"},
+            {Text = "Thanks, I’ll look into it. Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    Unseen = {
+        Text = {
+            "This building—this city—has roots, my dear. Deep, dark roots.",
+            "The past reaches up to reclaim what it’s lost.",
+            "Symbols, whispers, and shadows... all connected. You’ll find them soon enough."
+        },
+        Responses = {
+            {Text = "What symbols are you talking about?", NextNode = "Symbols"},
+            {Text = "Interesting. Thanks, goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    Basement = {
+        Text = {
+            "Ah, the basement! A sanctuary—or a trap? Hard to say.",
+            "Doors opened in curiosity are not so easily closed.",
+            "But if you go, be cautious. Something stirs down there."
+        },
+        Responses = {
+            {Text = "I’ll keep that in mind. Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    Symbols = {
+        Text = {
+            "Glyphs of protection... or entrapment? Who’s to say!",
+            "Check the lockers, the walls, the places no one thinks to look.",
+            "The truth is in the details, detective. Always."
+        },
+        Responses = {
+            {Text = "I’ll start investigating. Goodbye.", NextNode = "Goodbye"}
+        }
+    },
+    Goodbye = {
+        Text = {
+            "May your curiosity guide you, but beware—curiosity has teeth."
+        }
+    }
+}
